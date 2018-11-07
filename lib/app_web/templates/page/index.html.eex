@@ -1,0 +1,4 @@
+<input type="checkbox" id="optin"/>
+<div id="additional">
+  <input type="text" id="email" placeholder="Email"/>
+</div>
