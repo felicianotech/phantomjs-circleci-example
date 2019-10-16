@@ -1,8 +1,8 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/elixir:1.6.6-otp-21-browsers-legacy
+      - image: cimg/elixir:1.6.6
         environment:
           MIX_ENV: test
     working_directory: ~/app
